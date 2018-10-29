@@ -710,15 +710,7 @@ client.on("message", message => {
     }
 })
 
- client.on('guildMemberAdd', member => {
-  member.guild.fetchInvites().then(guildInvites => {
-    const ei = invites[member.guild.id];
-    const invite = guildInvites.find(i => ei.get(i.code).uses < i.uses);
-    const inviter = client.users.get(invite.inviter.id);
-    const vanieeet = member.guild.channels.find("name", "ask");
-     vanieeet.send(`**. <@${member.user.id}> , تمت دعـوته بواسطهه <@${inviter.id}> 🥂 .**`);
-  }); 
-});
+
 
 
 var dat = JSON.parse("{}");
@@ -767,7 +759,7 @@ client.on("ready", () => {
 
 
 client.on("guildMemberAdd", (member) => {
-    let channel = member.guild.channels.find(c => c.name === 'chat');
+    let channel = member.guild.channels.find(c => c.name === 'txt');
     if (!channel) {
         console.log("!the channel id it's not correct");
         return;
