@@ -157,7 +157,7 @@ client.on("ready", async  => {
         client.channels.get("506201618199478280").setName("❆ Welcome To Explosio");
         client.channels.get("506201618199478280").setName("❆ Welcome To Explosion");
 
-          }, 3000);
+          }, 5000);
         });
 
         client.on('ready',async () => {
