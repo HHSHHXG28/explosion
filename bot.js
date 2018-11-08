@@ -135,30 +135,6 @@ client.on('ready', async () => {
 
 
 
-client.on("ready", async  => {
-        setInterval(function(){
-        client.channels.get("506201618199478280").setName("❆");
-        client.channels.get("506201618199478280").setName("❆ W");
-        client.channels.get("506201618199478280").setName("❆ We");
-        client.channels.get("506201618199478280").setName("❆ Wel");
-        client.channels.get("506201618199478280").setName("❆ Welc");
-        client.channels.get("506201618199478280").setName("❆ Welco");
-        client.channels.get("506201618199478280").setName("❆ Welcom");
-        client.channels.get("506201618199478280").setName("❆ Welcome");
-        client.channels.get("506201618199478280").setName("❆ Welcome T");
-        client.channels.get("506201618199478280").setName("❆ Welcome To");
-        client.channels.get("506201618199478280").setName("❆ Welcome To E");
-        client.channels.get("506201618199478280").setName("❆ Welcome To Ex");
-        client.channels.get("506201618199478280").setName("❆ Welcome To Exp");
-        client.channels.get("506201618199478280").setName("❆ Welcome To Expl");
-        client.channels.get("506201618199478280").setName("❆ Welcome To Explo");
-        client.channels.get("506201618199478280").setName("❆ Welcome To Explos");
-        client.channels.get("506201618199478280").setName("❆ Welcome To Explosi");
-        client.channels.get("506201618199478280").setName("❆ Welcome To Explosio");
-        client.channels.get("506201618199478280").setName("❆ Welcome To Explosion");
-
-          }, 5000);
-        });
 
         client.on('ready',async () => {
           setInterval(function(){
